@@ -10,5 +10,6 @@ return {
     config = function()
       require "codegpt.config"
     end,
+    enabled = false,
   },
 }

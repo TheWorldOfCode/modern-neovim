@@ -5,8 +5,8 @@ return {
     event = "VeryLazy",
     opts = {
       themes = {
-        markdown = { colorscheme = "tokyonight" },
-        help = { colorscheme = "tokyonight" },
+        markdown = { colorscheme = "dracula" },
+        help = { colorscheme = "dracula" },
       },
     },
   },
@@ -81,5 +81,8 @@ return {
     config = function()
       require("gruvbox").setup()
     end,
+  },
+  {
+    "Mofiqul/dracula.nvim",
   },
 }
